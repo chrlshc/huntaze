@@ -405,39 +405,37 @@ export default function HomePage() {
             </div>
           </div>
           
-          {/* Next Features Card */}
-          <div className="features-card p-6 md:p-8 col-span-1 md:col-span-2 lg:col-span-1">
-            <div className="mb-4">
-              <h3 className="text-xl md:text-2xl mb-3 text-neutral-900">Next, etc...</h3>
-              <p className="text-neutral-700 mb-4">
-                Every Monday, we ask our community to vote on new features. The most requested features get built within 7 days.
-              </p>
-              <div className="space-y-3">
-                <div className="flex items-start gap-3">
-                  <span className="text-purple-600">🎥</span>
-                  <div>
-                    <p className="font-medium text-neutral-800">AI Video Scripts</p>
-                    <p className="text-sm text-neutral-600">Coming Week 2</p>
-                  </div>
-                </div>
-                <div className="flex items-start gap-3">
-                  <span className="text-purple-600">📱</span>
-                  <div>
-                    <p className="font-medium text-neutral-800">TikTok Integration</p>
-                    <p className="text-sm text-neutral-600">Coming Week 3</p>
-                  </div>
-                </div>
-                <div className="flex items-start gap-3">
-                  <span className="text-purple-600">💳</span>
-                  <div>
-                    <p className="font-medium text-neutral-800">Crypto Payments</p>
-                    <p className="text-sm text-neutral-600">Coming Week 4</p>
-                  </div>
+          {/* Next Features Block */}
+          <div className="mt-12 features-card p-8 md:p-10">
+            <h3 className="text-2xl md:text-3xl mb-4 text-neutral-900">Next, etc...</h3>
+            <p className="text-lg text-neutral-700 mb-6">
+              Every Monday, we ask our community to vote on new features. The most requested features get built within 7 days.
+            </p>
+            <div className="grid md:grid-cols-3 gap-4 mb-6">
+              <div className="flex items-start gap-3">
+                <span className="text-2xl">🎥</span>
+                <div>
+                  <p className="font-medium text-neutral-800">AI Video Scripts</p>
+                  <p className="text-sm text-neutral-600">Coming Week 2</p>
                 </div>
               </div>
-              <div className="mt-6 p-4 bg-purple-50 rounded-lg text-center">
-                <p className="text-sm font-medium text-purple-700">🗳️ Vote Every Monday</p>
+              <div className="flex items-start gap-3">
+                <span className="text-2xl">📱</span>
+                <div>
+                  <p className="font-medium text-neutral-800">TikTok Integration</p>
+                  <p className="text-sm text-neutral-600">Coming Week 3</p>
+                </div>
               </div>
+              <div className="flex items-start gap-3">
+                <span className="text-2xl">💳</span>
+                <div>
+                  <p className="font-medium text-neutral-800">Crypto Payments</p>
+                  <p className="text-sm text-neutral-600">Coming Week 4</p>
+                </div>
+              </div>
+            </div>
+            <div className="text-center">
+              <p className="text-base font-medium text-purple-700">🗳️ Vote Every Monday</p>
             </div>
           </div>
         </div>
