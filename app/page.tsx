@@ -403,43 +403,31 @@ export default function HomePage() {
                 </li>
               </ul>
             </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Next Features Section */}
-      <section className="py-20 px-4 md:py-24 lg:py-32 bg-gradient-to-r from-purple-50 via-pink-50 to-purple-50">
-        <div className="max-w-7xl mx-auto">
-          <div className="features-card p-8 md:p-12">
-            <h2 className="text-3xl md:text-4xl lg:text-5xl mb-6 text-center text-neutral-900">Next, etc...</h2>
-            <p className="text-lg md:text-xl text-neutral-700 mb-8 text-center max-w-3xl mx-auto">
-              Every Monday, we ask our community to vote on new features. The most requested features get built within 7 days.
-            </p>
-            <div className="grid md:grid-cols-3 gap-6 md:gap-8 mb-8">
-              <div className="flex items-start gap-4">
-                <span className="text-3xl">🎥</span>
-                <div>
-                  <p className="text-lg font-semibold text-neutral-800">AI Video Scripts</p>
-                  <p className="text-neutral-600">Coming Week 2</p>
-                </div>
+            
+            {/* Next Features - Card 6 */}
+            <div className="girly-card p-6 md:p-8">
+              <Sparkles className="w-10 h-10 md:w-12 md:h-12 text-purple-600 mb-4" aria-hidden="true" />
+              <h3 className="mb-3">Next, etc...</h3>
+              <p className="mb-4">
+                Every Monday, we ask our community to vote on new features. The most requested features get built within 7 days.
+              </p>
+              <ul className="space-y-2">
+                <li className="flex items-start gap-2">
+                  <span className="text-purple-600">🎥</span>
+                  <span className="text-neutral-800">AI Video Scripts <span className="text-sm text-neutral-600">(Week 2)</span></span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <span className="text-purple-600">📱</span>
+                  <span className="text-neutral-800">TikTok Integration <span className="text-sm text-neutral-600">(Week 3)</span></span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <span className="text-purple-600">💳</span>
+                  <span className="text-neutral-800">Crypto Payments <span className="text-sm text-neutral-600">(Week 4)</span></span>
+                </li>
+              </ul>
+              <div className="mt-4 pt-4 border-t border-purple-100">
+                <p className="text-sm font-medium text-purple-700 text-center">🗳️ Vote Every Monday</p>
               </div>
-              <div className="flex items-start gap-4">
-                <span className="text-3xl">📱</span>
-                <div>
-                  <p className="text-lg font-semibold text-neutral-800">TikTok Integration</p>
-                  <p className="text-neutral-600">Coming Week 3</p>
-                </div>
-              </div>
-              <div className="flex items-start gap-4">
-                <span className="text-3xl">💳</span>
-                <div>
-                  <p className="text-lg font-semibold text-neutral-800">Crypto Payments</p>
-                  <p className="text-neutral-600">Coming Week 4</p>
-                </div>
-              </div>
-            </div>
-            <div className="text-center">
-              <p className="text-lg font-medium text-purple-700">🗳️ Vote Every Monday</p>
             </div>
           </div>
         </div>
