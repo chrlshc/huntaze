@@ -24,7 +24,7 @@ export default function HomePage() {
               <div className="flex flex-col sm:flex-row gap-4">
                 <Button asChild className="btn-primary w-full sm:w-auto" aria-label="Démarrer votre essai gratuit de Huntaze">
                   <Link href="/join">
-                    Start Free Trial
+                    Get Early Access
                     <ArrowRight className="ml-2 h-4 w-4" aria-hidden="true" />
                   </Link>
                 </Button>

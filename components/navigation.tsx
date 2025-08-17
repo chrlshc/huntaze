@@ -37,7 +37,7 @@ export default function Navigation() {
           About
         </Link>
         <Button asChild className="btn-primary">
-          <Link href="/join">Start Free Trial</Link>
+          <Link href="/join">Get Early Access</Link>
         </Button>
       </nav>
       
@@ -83,7 +83,7 @@ export default function Navigation() {
               About
             </Link>
             <Button asChild className="btn-primary w-full">
-              <Link href="/join">Start Free Trial</Link>
+              <Link href="/join">Get Early Access</Link>
             </Button>
           </div>
         </nav>
