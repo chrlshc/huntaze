@@ -604,6 +604,55 @@ export default function HomePage() {
         </div>
       </section>
 
+      {/* Next Features Section */}
+      <section className="py-20 px-4 md:py-24 lg:py-32 bg-gradient-to-r from-purple-50 to-pink-50">
+        <div className="max-w-7xl mx-auto">
+          <div className="text-center mb-12 md:mb-16">
+            <h2 className="text-2xl md:text-4xl lg:text-5xl mb-4 md:mb-6 text-neutral-900">What's Coming Next</h2>
+            <p className="text-base md:text-xl text-neutral-700 max-w-3xl mx-auto px-4">
+              Every Monday, we ask our community to vote on new features. The most requested features get built within 7 days.
+            </p>
+          </div>
+          
+          <div className="grid md:grid-cols-3 gap-6 md:gap-8 mb-12">
+            <div className="bg-white rounded-2xl p-6 md:p-8 shadow-lg border border-purple-100">
+              <div className="w-16 h-16 bg-gradient-to-br from-purple-400 to-pink-400 rounded-2xl flex items-center justify-center mb-4">
+                <span className="text-white text-2xl">🎥</span>
+              </div>
+              <h3 className="text-xl font-semibold mb-2">AI Video Scripts</h3>
+              <p className="text-neutral-700">Generate viral video ideas and scripts based on trending content in your niche.</p>
+              <div className="mt-4 text-sm text-purple-600 font-medium">Coming Week 2</div>
+            </div>
+            
+            <div className="bg-white rounded-2xl p-6 md:p-8 shadow-lg border border-purple-100">
+              <div className="w-16 h-16 bg-gradient-to-br from-purple-400 to-pink-400 rounded-2xl flex items-center justify-center mb-4">
+                <span className="text-white text-2xl">📱</span>
+              </div>
+              <h3 className="text-xl font-semibold mb-2">TikTok Integration</h3>
+              <p className="text-neutral-700">Auto-post your best content to TikTok with AI-optimized captions and hashtags.</p>
+              <div className="mt-4 text-sm text-purple-600 font-medium">Coming Week 3</div>
+            </div>
+            
+            <div className="bg-white rounded-2xl p-6 md:p-8 shadow-lg border border-purple-100">
+              <div className="w-16 h-16 bg-gradient-to-br from-purple-400 to-pink-400 rounded-2xl flex items-center justify-center mb-4">
+                <span className="text-white text-2xl">💳</span>
+              </div>
+              <h3 className="text-xl font-semibold mb-2">Crypto Payments</h3>
+              <p className="text-neutral-700">Accept crypto tips and payments directly from fans with instant conversion.</p>
+              <div className="mt-4 text-sm text-purple-600 font-medium">Coming Week 4</div>
+            </div>
+          </div>
+          
+          <div className="bg-purple-100 rounded-2xl p-8 text-center">
+            <h3 className="text-xl font-semibold mb-3">🗳️ Vote Every Monday</h3>
+            <p className="text-neutral-700 mb-4">Join our community and decide which features we build next. Your voice matters!</p>
+            <Button asChild className="bg-purple-600 text-white hover:bg-purple-700">
+              <Link href="/join">Join Beta & Vote</Link>
+            </Button>
+          </div>
+        </div>
+      </section>
+
       {/* CTA Section */}
       <section className="py-20 px-4 md:py-24 lg:py-32 bg-gradient-to-r from-purple-900 to-pink-900 text-white relative overflow-hidden">
         <div className="absolute inset-0 bg-black opacity-10"></div>
