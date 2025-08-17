@@ -404,38 +404,42 @@ export default function HomePage() {
               </ul>
             </div>
           </div>
-          
-          {/* Next Features Block */}
-          <div className="mt-12 features-card p-8 md:p-10">
-            <h3 className="text-2xl md:text-3xl mb-4 text-neutral-900">Next, etc...</h3>
-            <p className="text-lg text-neutral-700 mb-6">
+        </div>
+      </section>
+
+      {/* Next Features Section */}
+      <section className="py-20 px-4 md:py-24 lg:py-32 bg-gradient-to-r from-purple-50 via-pink-50 to-purple-50">
+        <div className="max-w-7xl mx-auto">
+          <div className="features-card p-8 md:p-12">
+            <h2 className="text-3xl md:text-4xl lg:text-5xl mb-6 text-center text-neutral-900">Next, etc...</h2>
+            <p className="text-lg md:text-xl text-neutral-700 mb-8 text-center max-w-3xl mx-auto">
               Every Monday, we ask our community to vote on new features. The most requested features get built within 7 days.
             </p>
-            <div className="grid md:grid-cols-3 gap-4 mb-6">
-              <div className="flex items-start gap-3">
-                <span className="text-2xl">🎥</span>
+            <div className="grid md:grid-cols-3 gap-6 md:gap-8 mb-8">
+              <div className="flex items-start gap-4">
+                <span className="text-3xl">🎥</span>
                 <div>
-                  <p className="font-medium text-neutral-800">AI Video Scripts</p>
-                  <p className="text-sm text-neutral-600">Coming Week 2</p>
+                  <p className="text-lg font-semibold text-neutral-800">AI Video Scripts</p>
+                  <p className="text-neutral-600">Coming Week 2</p>
                 </div>
               </div>
-              <div className="flex items-start gap-3">
-                <span className="text-2xl">📱</span>
+              <div className="flex items-start gap-4">
+                <span className="text-3xl">📱</span>
                 <div>
-                  <p className="font-medium text-neutral-800">TikTok Integration</p>
-                  <p className="text-sm text-neutral-600">Coming Week 3</p>
+                  <p className="text-lg font-semibold text-neutral-800">TikTok Integration</p>
+                  <p className="text-neutral-600">Coming Week 3</p>
                 </div>
               </div>
-              <div className="flex items-start gap-3">
-                <span className="text-2xl">💳</span>
+              <div className="flex items-start gap-4">
+                <span className="text-3xl">💳</span>
                 <div>
-                  <p className="font-medium text-neutral-800">Crypto Payments</p>
-                  <p className="text-sm text-neutral-600">Coming Week 4</p>
+                  <p className="text-lg font-semibold text-neutral-800">Crypto Payments</p>
+                  <p className="text-neutral-600">Coming Week 4</p>
                 </div>
               </div>
             </div>
             <div className="text-center">
-              <p className="text-base font-medium text-purple-700">🗳️ Vote Every Monday</p>
+              <p className="text-lg font-medium text-purple-700">🗳️ Vote Every Monday</p>
             </div>
           </div>
         </div>
