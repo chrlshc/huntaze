@@ -407,7 +407,7 @@ export default function HomePage() {
             {/* Next Features - Card 6 */}
             <div className="girly-card p-6 md:p-8">
               <Sparkles className="w-10 h-10 md:w-12 md:h-12 text-purple-600 mb-4" aria-hidden="true" />
-              <h3 className="mb-3">Next, etc...</h3>
+              <h3 className="mb-3">Soon...</h3>
               <p className="mb-4">
                 Every Monday, we ask our community to vote on new features. The most requested features get built within 7 days.
               </p>
