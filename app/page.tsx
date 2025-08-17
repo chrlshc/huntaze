@@ -608,7 +608,7 @@ export default function HomePage() {
       <section className="py-20 px-4 md:py-24 lg:py-32 bg-gradient-to-r from-purple-50 to-pink-50">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-12 md:mb-16">
-            <h2 className="text-2xl md:text-4xl lg:text-5xl mb-4 md:mb-6 text-neutral-900">What's Coming Next</h2>
+            <h2 className="text-2xl md:text-4xl lg:text-5xl mb-4 md:mb-6 text-neutral-900">Next...</h2>
             <p className="text-base md:text-xl text-neutral-700 max-w-3xl mx-auto px-4">
               Every Monday, we ask our community to vote on new features. The most requested features get built within 7 days.
             </p>
