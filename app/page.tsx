@@ -18,32 +18,32 @@ export default function HomePage() {
                 All-in-One AI Platform for{' '}
                 <span className="text-gradient">Content Creators</span>
               </h1>
-              <p className="text-lg md:text-xl mb-6 md:mb-8 text-neutral-600">
+              <p className="text-lg md:text-xl mb-6 md:mb-8 text-neutral-700">
                 Transform your OnlyFans into a 6-figure automated business. Our AI handles messaging, content scheduling, and fan engagement 24/7 while you focus on creating.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
-                <Button asChild className="btn-primary w-full sm:w-auto">
+                <Button asChild className="btn-primary w-full sm:w-auto" aria-label="Démarrer votre essai gratuit de Huntaze">
                   <Link href="/join">
-                    Request Demo
-                    <ArrowRight className="ml-2 h-4 w-4" />
+                    Start Free Trial
+                    <ArrowRight className="ml-2 h-4 w-4" aria-hidden="true" />
                   </Link>
                 </Button>
-                <Button asChild className="btn-secondary w-full sm:w-auto">
+                <Button asChild className="btn-secondary w-full sm:w-auto" aria-label="Découvrir les solutions Huntaze">
                   <Link href="#solutions">View Solutions</Link>
                 </Button>
               </div>
               <div className="mt-8 md:mt-12 grid grid-cols-3 gap-4 md:gap-8">
                 <div className="text-center">
                   <div className="text-2xl md:text-4xl font-bold text-gradient">500+</div>
-                  <div className="text-xs md:text-sm text-neutral-600">6-Figure Creators</div>
+                  <div className="text-xs md:text-sm text-neutral-700">6-Figure Creators</div>
                 </div>
                 <div className="text-center border-x border-purple-200">
                   <div className="text-2xl md:text-4xl font-bold text-gradient">$50M+</div>
-                  <div className="text-xs md:text-sm text-neutral-600">Revenue Generated</div>
+                  <div className="text-xs md:text-sm text-neutral-700">Revenue Generated</div>
                 </div>
                 <div className="text-center">
                   <div className="text-2xl md:text-4xl font-bold text-gradient">24/7</div>
-                  <div className="text-xs md:text-sm text-neutral-600">AI Automation</div>
+                  <div className="text-xs md:text-sm text-neutral-700">AI Automation</div>
                 </div>
               </div>
             </div>
@@ -113,25 +113,25 @@ export default function HomePage() {
       <section className="py-12 md:py-16 px-4 bg-gradient-to-r from-purple-50 to-pink-50 border-t border-b border-purple-100">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-8 md:mb-12">
-            <h3 className="text-xl md:text-2xl font-bold text-gray-800 mb-3">Trusted Partners</h3>
-            <p className="text-sm md:text-base text-neutral-600">Officially partnered with leading creator platforms</p>
+            <h3 className="text-xl md:text-2xl font-bold text-gray-900 mb-3">Trusted Partners</h3>
+            <p className="text-sm md:text-base text-neutral-700">Officially partnered with leading creator platforms</p>
           </div>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6 md:gap-8 items-center">
             <div className="text-center">
               <div className="text-2xl md:text-3xl font-bold text-gradient mb-1">OnlyFans</div>
-              <div className="text-xs text-neutral-500">Official Partner</div>
+              <div className="text-xs text-neutral-600">Official Partner</div>
             </div>
             <div className="text-center">
               <div className="text-2xl md:text-3xl font-bold text-gradient mb-1">Fansly</div>
-              <div className="text-xs text-neutral-500">Verified Agency</div>
+              <div className="text-xs text-neutral-600">Verified Agency</div>
             </div>
             <div className="text-center">
               <div className="text-2xl md:text-3xl font-bold text-gradient mb-1">LoyalFans</div>
-              <div className="text-xs text-neutral-500">Top Performer</div>
+              <div className="text-xs text-neutral-600">Top Performer</div>
             </div>
             <div className="text-center">
               <div className="text-2xl md:text-3xl font-bold text-gradient mb-1">FanCentro</div>
-              <div className="text-xs text-neutral-500">Elite Status</div>
+              <div className="text-xs text-neutral-600">Elite Status</div>
             </div>
           </div>
         </div>
@@ -148,7 +148,7 @@ export default function HomePage() {
           <div className="text-center mb-12 md:mb-16">
             <span className="inline-block text-sm font-semibold text-purple-600 uppercase tracking-wider mb-2">Transparent Pricing</span>
             <h2 className="text-3xl md:text-5xl lg:text-6xl font-bold mb-4">Tiered <span className="text-gradient">Commission</span></h2>
-            <p className="text-base md:text-xl text-neutral-600 max-w-3xl mx-auto px-4">
+            <p className="text-base md:text-xl text-neutral-700 max-w-3xl mx-auto px-4">
               Zero monthly fees. Zero setup costs. We take a commission based on your total monthly earnings. The more you earn, the lower your commission rate!
             </p>
           </div>
@@ -281,39 +281,39 @@ export default function HomePage() {
         </div>
         <div className="max-w-7xl mx-auto relative z-10">
           <div className="text-center mb-12 md:mb-16">
-            <h2 className="text-2xl md:text-4xl lg:text-5xl mb-4">Everything You Need to <span className="text-gradient">Scale Your OnlyFans</span></h2>
-            <p className="text-base md:text-xl text-neutral-600 max-w-3xl mx-auto px-4">
-              One platform, endless possibilities. Automate your entire OnlyFans business with our AI-powered suite designed specifically for content creators.
+            <h2 className="text-2xl md:text-4xl lg:text-5xl mb-4">Tout ce dont vous avez besoin pour <span className="text-gradient">développer votre OnlyFans</span></h2>
+            <p className="text-base md:text-xl text-neutral-700 max-w-3xl mx-auto px-4">
+              Une plateforme, des possibilités infinies. Automatisez toute votre activité OnlyFans avec notre suite alimentée par l'IA conçue spécifiquement pour les créateurs de contenu.
             </p>
           </div>
           
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
             {/* AI Messaging */}
             <div className="girly-card p-6 md:p-8">
-              <Sparkles className="w-10 h-10 md:w-12 md:h-12 text-purple-600 mb-4" />
-              <h3 className="mb-3">AI Messaging Assistant</h3>
+              <Sparkles className="w-10 h-10 md:w-12 md:h-12 text-purple-600 mb-4" aria-hidden="true" />
+              <h3 className="mb-3">Assistant de messagerie IA</h3>
               <p className="mb-4">
-                Never miss a message again. Our AI learns your personality to engage fans 24/7, increasing tips and PPV sales by up to 300%.
+                Ne manquez plus jamais un message. Notre IA apprend votre personnalité pour engager les fans 24/7, augmentant les pourboires et les ventes PPV jusqu'à 300%.
               </p>
               <ul className="space-y-2">
                 <li className="flex items-start gap-2">
                   <CheckCircle className="w-5 h-5 text-green-500 mt-0.5" />
-                  <span className="text-neutral-700">Personalized fan conversations</span>
+                  <span className="text-neutral-800">Conversations personnalisées avec les fans</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <CheckCircle className="w-5 h-5 text-green-500 mt-0.5" />
-                  <span className="text-neutral-700">Smart tip suggestions</span>
+                  <span className="text-neutral-800">Suggestions de pourboires intelligentes</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <CheckCircle className="w-5 h-5 text-green-500 mt-0.5" />
-                  <span className="text-neutral-700">PPV sales optimization</span>
+                  <span className="text-neutral-800">Optimisation des ventes PPV</span>
                 </li>
               </ul>
             </div>
 
             {/* Content Scheduling */}
             <div className="girly-card p-6 md:p-8">
-              <Crown className="w-10 h-10 md:w-12 md:h-12 text-purple-600 mb-4" />
+              <Crown className="w-10 h-10 md:w-12 md:h-12 text-purple-600 mb-4" aria-hidden="true" />
               <h3 className="mb-3">Smart Content Scheduler</h3>
               <p className="mb-4">
                 Post at the perfect time, every time. Our AI analyzes your audience to schedule content when engagement is highest, boosting your visibility.
@@ -321,22 +321,22 @@ export default function HomePage() {
               <ul className="space-y-2">
                 <li className="flex items-start gap-2">
                   <CheckCircle className="w-5 h-5 text-green-500 mt-0.5" />
-                  <span className="text-neutral-700">Optimal posting times</span>
+                  <span className="text-neutral-800">Optimal posting times</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <CheckCircle className="w-5 h-5 text-green-500 mt-0.5" />
-                  <span className="text-neutral-700">Multi-platform posting</span>
+                  <span className="text-neutral-800">Multi-platform posting</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <CheckCircle className="w-5 h-5 text-green-500 mt-0.5" />
-                  <span className="text-neutral-700">Content performance tracking</span>
+                  <span className="text-neutral-800">Content performance tracking</span>
                 </li>
               </ul>
             </div>
 
             {/* Fan Analytics */}
             <div className="girly-card p-6 md:p-8">
-              <BarChart3 className="w-10 h-10 md:w-12 md:h-12 text-purple-600 mb-4" />
+              <BarChart3 className="w-10 h-10 md:w-12 md:h-12 text-purple-600 mb-4" aria-hidden="true" />
               <h3 className="mb-3">Advanced Fan Analytics</h3>
               <p className="mb-4">
                 Know your fans better than ever. Track spending patterns, engagement rates, and preferences to maximize revenue from every subscriber.
@@ -344,15 +344,15 @@ export default function HomePage() {
               <ul className="space-y-2">
                 <li className="flex items-start gap-2">
                   <CheckCircle className="w-5 h-5 text-green-500 mt-0.5" />
-                  <span className="text-neutral-700">Detailed fan insights</span>
+                  <span className="text-neutral-800">Detailed fan insights</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <CheckCircle className="w-5 h-5 text-green-500 mt-0.5" />
-                  <span className="text-neutral-700">Revenue predictions</span>
+                  <span className="text-neutral-800">Revenue predictions</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <CheckCircle className="w-5 h-5 text-green-500 mt-0.5" />
-                  <span className="text-neutral-700">Churn prevention alerts</span>
+                  <span className="text-neutral-800">Churn prevention alerts</span>
                 </li>
               </ul>
             </div>
@@ -360,7 +360,7 @@ export default function HomePage() {
 
             {/* PPV Management */}
             <div className="girly-card p-6 md:p-8">
-              <DollarSign className="w-10 h-10 md:w-12 md:h-12 text-purple-600 mb-4" />
+              <DollarSign className="w-10 h-10 md:w-12 md:h-12 text-purple-600 mb-4" aria-hidden="true" />
               <h3 className="mb-3">PPV & Tip Optimizer</h3>
               <p className="mb-4">
                 Maximize your pay-per-view sales and tips with AI-driven pricing strategies. Our system learns what content sells best at what price.
@@ -368,22 +368,22 @@ export default function HomePage() {
               <ul className="space-y-2">
                 <li className="flex items-start gap-2">
                   <CheckCircle className="w-5 h-5 text-green-500 mt-0.5" />
-                  <span className="text-neutral-700">Dynamic pricing optimization</span>
+                  <span className="text-neutral-800">Dynamic pricing optimization</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <CheckCircle className="w-5 h-5 text-green-500 mt-0.5" />
-                  <span className="text-neutral-700">Automated tip menus</span>
+                  <span className="text-neutral-800">Automated tip menus</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <CheckCircle className="w-5 h-5 text-green-500 mt-0.5" />
-                  <span className="text-neutral-700">Revenue maximization</span>
+                  <span className="text-neutral-800">Revenue maximization</span>
                 </li>
               </ul>
             </div>
 
             {/* Creator Support */}
             <div className="girly-card p-6 md:p-8">
-              <Star className="w-10 h-10 md:w-12 md:h-12 text-purple-600 mb-4" />
+              <Star className="w-10 h-10 md:w-12 md:h-12 text-purple-600 mb-4" aria-hidden="true" />
               <h3 className="mb-3">VIP Creator Support</h3>
               <p className="mb-4">
                 You're never alone on your journey. Get 24/7 support from our team of OnlyFans experts who understand the creator economy.
@@ -391,15 +391,15 @@ export default function HomePage() {
               <ul className="space-y-2">
                 <li className="flex items-start gap-2">
                   <CheckCircle className="w-5 h-5 text-green-500 mt-0.5" />
-                  <span className="text-neutral-700">Personal success manager</span>
+                  <span className="text-neutral-800">Personal success manager</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <CheckCircle className="w-5 h-5 text-green-500 mt-0.5" />
-                  <span className="text-neutral-700">24/7 live chat support</span>
+                  <span className="text-neutral-800">24/7 live chat support</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <CheckCircle className="w-5 h-5 text-green-500 mt-0.5" />
-                  <span className="text-neutral-700">Growth strategy sessions</span>
+                  <span className="text-neutral-800">Growth strategy sessions</span>
                 </li>
               </ul>
             </div>
@@ -414,7 +414,7 @@ export default function HomePage() {
           <div className="text-center mb-12">
             <span className="inline-block text-sm font-semibold text-purple-700 uppercase tracking-wider mb-2">Built by Creators, For Creators</span>
             <h2 className="text-3xl md:text-5xl font-bold mb-4 text-gray-900">Continuous <span className="text-gradient bg-gradient-to-r from-pink-500 to-purple-600 bg-clip-text text-transparent">Innovation</span></h2>
-            <p className="text-lg md:text-xl text-gray-700 max-w-3xl mx-auto">
+            <p className="text-lg md:text-xl text-gray-800 max-w-3xl mx-auto">
               Our platform evolves continuously based on feedback from our community of successful creators.
             </p>
           </div>
@@ -427,28 +427,28 @@ export default function HomePage() {
                 <span className="text-green-500 text-xl">✓</span>
                 <div>
                   <h4 className="font-semibold mb-1 text-gray-900">Auto Voice Messages</h4>
-                  <p className="text-sm text-gray-600">Send personalized voice notes automatically</p>
+                  <p className="text-sm text-gray-700">Send personalized voice notes automatically</p>
                 </div>
               </div>
               <div className="flex items-start gap-3">
                 <span className="text-green-500 text-xl">✓</span>
                 <div>
                   <h4 className="font-semibold mb-1 text-gray-900">Smart Price Testing</h4>
-                  <p className="text-sm text-gray-600">A/B test your content prices for max revenue</p>
+                  <p className="text-sm text-gray-700">A/B test your content prices for max revenue</p>
                 </div>
               </div>
               <div className="flex items-start gap-3">
                 <span className="text-green-500 text-xl">✓</span>
                 <div>
                   <h4 className="font-semibold mb-1 text-gray-900">Fan Loyalty Rewards</h4>
-                  <p className="text-sm text-gray-600">Automated rewards for your most loyal subscribers</p>
+                  <p className="text-sm text-gray-700">Automated rewards for your most loyal subscribers</p>
                 </div>
               </div>
               <div className="flex items-start gap-3">
                 <span className="text-green-500 text-xl">✓</span>
                 <div>
                   <h4 className="font-semibold mb-1 text-gray-900">Content Performance AI</h4>
-                  <p className="text-sm text-gray-600">Predict which content will perform best</p>
+                  <p className="text-sm text-gray-700">Predict which content will perform best</p>
                 </div>
               </div>
             </div>
@@ -468,7 +468,7 @@ export default function HomePage() {
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
               <h2 className="mb-6">Real Results from <span className="text-gradient">Real Creators</span></h2>
-              <p className="text-xl text-neutral-600 mb-8">
+              <p className="text-xl text-neutral-700 mb-8">
                 Join hundreds of creators who have transformed their OnlyFans into sustainable 6-figure businesses with our AI platform.
               </p>
               <div className="space-y-6">
@@ -532,7 +532,7 @@ export default function HomePage() {
         <div className="max-w-7xl mx-auto relative z-10">
           <div className="text-center mb-12 md:mb-16">
             <h2 className="text-2xl md:text-4xl lg:text-5xl mb-4">Real <span className="text-gradient">Creator Success</span> Stories</h2>
-            <p className="text-base md:text-xl text-neutral-600 max-w-3xl mx-auto px-4">
+            <p className="text-base md:text-xl text-neutral-700 max-w-3xl mx-auto px-4">
               From part-time creators to 6-figure earners. See how our AI platform transformed their OnlyFans journey.
             </p>
           </div>
@@ -544,15 +544,15 @@ export default function HomePage() {
                   <div className="w-12 h-12 bg-gradient-to-br from-purple-400 to-pink-400 rounded-full"></div>
                   <div>
                     <p className="font-semibold">Bella Rose</p>
-                    <p className="text-sm text-neutral-600">@bellarose • Top 0.5%</p>
+                    <p className="text-sm text-neutral-700">@bellarose • Top 0.5%</p>
                   </div>
                 </div>
                 <p className="text-2xl md:text-3xl font-bold text-purple-600 mb-2">$45k/month</p>
-                <p className="text-neutral-600">From $3k in 3 months</p>
+                <p className="text-neutral-700">From $3k in 3 months</p>
               </div>
-              <p className="text-neutral-700 italic mb-4">
-                "I was spending 8 hours a day messaging fans. Now the AI handles everything perfectly while I create content. My income went 15x!"
-              </p>
+              <blockquote className="text-neutral-800 italic mb-4">
+                <p>"Je passais 8 heures par jour à répondre aux fans. Maintenant l'IA gère tout parfaitement pendant que je crée du contenu. Mes revenus ont été multipliés par 15 !"</p>
+              </blockquote>
               <div className="flex gap-2 text-xs">
                 <span className="bg-purple-100 text-purple-700 px-2 py-1 rounded-full">AI Messaging</span>
                 <span className="bg-purple-100 text-purple-700 px-2 py-1 rounded-full">PPV Strategy</span>
@@ -565,15 +565,15 @@ export default function HomePage() {
                   <div className="w-12 h-12 bg-gradient-to-br from-purple-400 to-pink-400 rounded-full"></div>
                   <div>
                     <p className="font-semibold">Luna Sky</p>
-                    <p className="text-sm text-neutral-600">@lunasky • Top 1%</p>
+                    <p className="text-sm text-neutral-700">@lunasky • Top 1%</p>
                   </div>
                 </div>
                 <p className="text-2xl md:text-3xl font-bold text-purple-600 mb-2">6 hrs → 30 min</p>
-                <p className="text-neutral-600">Daily work time</p>
+                <p className="text-neutral-700">Daily work time</p>
               </div>
-              <p className="text-neutral-700 italic mb-4">
-                "I'm a single mom and time is precious. The AI responds exactly like I would, handles all my DMs, and I just check in once a day!"
-              </p>
+              <blockquote className="text-neutral-800 italic mb-4">
+                <p>"Je suis mère célibataire et le temps est précieux. L'IA répond exactement comme je le ferais, gère tous mes DM, et je vérifie juste une fois par jour !"</p>
+              </blockquote>
               <div className="flex gap-2 text-xs">
                 <span className="bg-purple-100 text-purple-700 px-2 py-1 rounded-full">Time Freedom</span>
                 <span className="bg-purple-100 text-purple-700 px-2 py-1 rounded-full">AI Assistant</span>
@@ -586,15 +586,15 @@ export default function HomePage() {
                   <div className="w-12 h-12 bg-gradient-to-br from-purple-400 to-pink-400 rounded-full"></div>
                   <div>
                     <p className="font-semibold">Mia Diamond</p>
-                    <p className="text-sm text-neutral-600">@miadiamond • Top 0.1%</p>
+                    <p className="text-sm text-neutral-700">@miadiamond • Top 0.1%</p>
                   </div>
                 </div>
                 <p className="text-2xl md:text-3xl font-bold text-purple-600 mb-2">$127k/month</p>
-                <p className="text-neutral-600">Consistent earnings</p>
+                <p className="text-neutral-700">Consistent earnings</p>
               </div>
-              <p className="text-neutral-700 italic mb-4">
-                "The mass messaging and PPV optimizer doubled my income. I send one campaign and the AI personalizes it for each fan's spending habits!"
-              </p>
+              <blockquote className="text-neutral-800 italic mb-4">
+                <p>"La messagerie de masse et l'optimiseur PPV ont doublé mes revenus. J'envoie une campagne et l'IA la personnalise selon les habitudes de dépenses de chaque fan !"</p>
+              </blockquote>
               <div className="flex gap-2 text-xs">
                 <span className="bg-purple-100 text-purple-700 px-2 py-1 rounded-full">Mass DMs</span>
                 <span className="bg-purple-100 text-purple-700 px-2 py-1 rounded-full">Smart Pricing</span>
@@ -609,7 +609,7 @@ export default function HomePage() {
         <div className="absolute inset-0 bg-black opacity-10"></div>
         <div className="max-w-7xl mx-auto text-center relative z-10">
           <h2 className="text-2xl md:text-4xl lg:text-5xl mb-4 md:mb-6 text-white">Ready to Transform Your OnlyFans?</h2>
-          <p className="text-base md:text-xl mb-6 md:mb-8 text-neutral-300 max-w-3xl mx-auto px-4">
+          <p className="text-base md:text-xl mb-6 md:mb-8 text-neutral-200 max-w-3xl mx-auto px-4">
             Join hundreds of creators already using our AI platform to automate their business and multiply their income.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">

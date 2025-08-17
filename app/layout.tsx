@@ -6,25 +6,61 @@ import Navigation from '../components/navigation';
 export const metadata: Metadata = {
   metadataBase: new URL('https://huntaze.com'),
   title: {
-    default: 'Huntaze | Enterprise AI Platform for Creator Economy',
+    default: 'Huntaze - AI Platform for Content Creators | Automate & Scale',
     template: '%s | Huntaze',
   },
   description:
-    'Leading enterprise AI platform delivering automation and intelligence solutions for the creator economy. Trusted by 500+ Fortune 500 companies.',
+    'Transform your OnlyFans into a 6-figure automated business. AI handles messaging, content scheduling, and fan engagement 24/7 while you focus on creating.',
+  keywords: ['content creators', 'OnlyFans', 'automation', 'AI', 'automated messaging', 'creator revenue', 'fan engagement'],
+  authors: [{ name: 'Huntaze' }],
+  creator: 'Huntaze',
+  publisher: 'Huntaze',
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      'max-video-preview': -1,
+      'max-image-preview': 'large',
+      'max-snippet': -1,
+    },
+  },
   openGraph: {
-    title: 'Huntaze - Enterprise AI Platform',
+    title: 'Huntaze - All-in-One AI Platform for Creators',
     description:
-      'Transform your business with cutting-edge AI solutions. 99.9% uptime SLA. SOC 2 certified.',
+      'Transform your OnlyFans into a 6-figure automated business. 24/7 AI, smart messaging, advanced analytics.',
     url: 'https://huntaze.com',
     siteName: 'Huntaze',
     locale: 'en_US',
     type: 'website',
+    images: [
+      {
+        url: '/og-image.jpg',
+        width: 1200,
+        height: 630,
+        alt: 'Huntaze - AI Automation for Content Creators',
+      },
+    ],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Huntaze - Enterprise AI Solutions',
+    title: 'Huntaze - Automate & Multiply Your Revenue',
     description:
-      'AI-powered automation platform for enterprise. Schedule a demo today.',
+      'AI platform for content creators. Automate messaging, scheduling and fan engagement.',
+    images: ['/twitter-image.jpg'],
+    creator: '@huntaze',
+  },
+  alternates: {
+    canonical: 'https://huntaze.com',
+    languages: {
+      'en-US': 'https://huntaze.com/en',
+      'fr-FR': 'https://huntaze.com/fr',
+    },
+  },
+  verification: {
+    google: 'google-site-verification-code',
+    yandex: 'yandex-verification-code',
   },
 };
 
@@ -46,10 +82,8 @@ export default function RootLayout({
         <header className="bg-white border-b border-gray-200 sticky top-0 z-50">
           <div className="max-w-7xl mx-auto px-4 py-3 md:px-6 md:py-4">
             <div className="flex items-center justify-between">
-              <Link href="/" className="flex items-center gap-2">
-                <div className="w-8 h-8 md:w-10 md:h-10 bg-gradient-to-br from-purple-600 to-pink-600 rounded-lg flex items-center justify-center shadow-lg">
-                  <span className="text-white font-bold text-lg md:text-xl">H</span>
-                </div>
+              <Link href="/" className="flex items-center gap-2" aria-label="Huntaze - Accueil">
+                <img src="/logo.svg" alt="Logo Huntaze" className="w-8 h-8 md:w-10 md:h-10" width="40" height="40" />
                 <span className="text-xl md:text-2xl font-semibold bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent">Huntaze</span>
               </Link>
               <Navigation />
