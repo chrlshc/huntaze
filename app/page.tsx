@@ -412,36 +412,13 @@ export default function HomePage() {
         <div className="absolute inset-0 bg-black opacity-10"></div>
         <div className="max-w-7xl mx-auto relative z-10">
           <div className="text-center mb-12">
-            <span className="inline-block text-sm font-semibold text-purple-200 uppercase tracking-wider mb-2">Built by Creators, For Creators</span>
-            <h2 className="text-3xl md:text-5xl font-bold mb-4">New Features <span className="text-gradient bg-gradient-to-r from-pink-300 to-purple-300 bg-clip-text text-transparent">Every Week</span></h2>
-            <p className="text-lg md:text-xl text-purple-100 max-w-3xl mx-auto">
-              Our platform evolves with you. Every week, we release new features voted on by our community of top creators.
+            <span className="inline-block text-sm font-semibold text-white/80 uppercase tracking-wider mb-2">Built by Creators, For Creators</span>
+            <h2 className="text-3xl md:text-5xl font-bold mb-4">Continuous <span className="text-gradient bg-gradient-to-r from-pink-300 to-purple-300 bg-clip-text text-transparent">Innovation</span></h2>
+            <p className="text-lg md:text-xl text-white/90 max-w-3xl mx-auto">
+              Our platform evolves continuously based on feedback from our community of successful creators.
             </p>
           </div>
           
-          <div className="grid md:grid-cols-3 gap-8 mb-12">
-            <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-6 border border-white/20">
-              <div className="text-4xl mb-4">🗳️</div>
-              <h3 className="text-xl font-bold mb-2">Weekly Voting</h3>
-              <p className="text-purple-100">
-                Every Monday, creators vote on the next features they want to see implemented.
-              </p>
-            </div>
-            <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-6 border border-white/20">
-              <div className="text-4xl mb-4">⚡</div>
-              <h3 className="text-xl font-bold mb-2">Rapid Development</h3>
-              <p className="text-purple-100">
-                Our team builds and deploys the most voted features within 7 days.
-              </p>
-            </div>
-            <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-6 border border-white/20">
-              <div className="text-4xl mb-4">🎯</div>
-              <h3 className="text-xl font-bold mb-2">Creator-First</h3>
-              <p className="text-purple-100">
-                100% of our features are requested and validated by active creators.
-              </p>
-            </div>
-          </div>
           
           <div className="bg-white/5 backdrop-blur-sm rounded-2xl p-8 border border-white/10">
             <h3 className="text-2xl font-bold mb-6 text-center">Recently Added Features</h3>
@@ -450,33 +427,33 @@ export default function HomePage() {
                 <span className="text-green-400 text-xl">✓</span>
                 <div>
                   <h4 className="font-semibold mb-1">Auto Voice Messages</h4>
-                  <p className="text-sm text-purple-200">Send personalized voice notes automatically</p>
+                  <p className="text-sm text-white/80">Send personalized voice notes automatically</p>
                 </div>
               </div>
               <div className="flex items-start gap-3">
                 <span className="text-green-400 text-xl">✓</span>
                 <div>
                   <h4 className="font-semibold mb-1">Smart Price Testing</h4>
-                  <p className="text-sm text-purple-200">A/B test your content prices for max revenue</p>
+                  <p className="text-sm text-white/80">A/B test your content prices for max revenue</p>
                 </div>
               </div>
               <div className="flex items-start gap-3">
                 <span className="text-green-400 text-xl">✓</span>
                 <div>
                   <h4 className="font-semibold mb-1">Fan Loyalty Rewards</h4>
-                  <p className="text-sm text-purple-200">Automated rewards for your most loyal subscribers</p>
+                  <p className="text-sm text-white/80">Automated rewards for your most loyal subscribers</p>
                 </div>
               </div>
               <div className="flex items-start gap-3">
                 <span className="text-green-400 text-xl">✓</span>
                 <div>
                   <h4 className="font-semibold mb-1">Content Performance AI</h4>
-                  <p className="text-sm text-purple-200">Predict which content will perform best</p>
+                  <p className="text-sm text-white/80">Predict which content will perform best</p>
                 </div>
               </div>
             </div>
             <div className="mt-8 text-center">
-              <p className="text-purple-200 mb-4">Join our community and vote for the next features!</p>
+              <p className="text-white/90 mb-4">Join our community and help shape the future of the platform!</p>
               <Button asChild className="bg-white text-purple-900 hover:bg-gray-100">
                 <Link href="/join">Get Early Access</Link>
               </Button>
