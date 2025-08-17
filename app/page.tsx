@@ -281,9 +281,9 @@ export default function HomePage() {
         </div>
         <div className="max-w-7xl mx-auto relative z-10">
           <div className="text-center mb-12 md:mb-16">
-            <h2 className="text-2xl md:text-4xl lg:text-5xl mb-4">Tout ce dont vous avez besoin pour <span className="text-gradient">développer votre OnlyFans</span></h2>
+            <h2 className="text-2xl md:text-4xl lg:text-5xl mb-4">Everything You Need to <span className="text-gradient">Scale Your OnlyFans</span></h2>
             <p className="text-base md:text-xl text-neutral-700 max-w-3xl mx-auto px-4">
-              Une plateforme, des possibilités infinies. Automatisez toute votre activité OnlyFans avec notre suite alimentée par l'IA conçue spécifiquement pour les créateurs de contenu.
+              One platform, endless possibilities. Automate your entire OnlyFans business with our AI-powered suite designed specifically for content creators.
             </p>
           </div>
           
@@ -291,22 +291,22 @@ export default function HomePage() {
             {/* AI Messaging */}
             <div className="girly-card p-6 md:p-8">
               <Sparkles className="w-10 h-10 md:w-12 md:h-12 text-purple-600 mb-4" aria-hidden="true" />
-              <h3 className="mb-3">Assistant de messagerie IA</h3>
+              <h3 className="mb-3">AI Messaging Assistant</h3>
               <p className="mb-4">
-                Ne manquez plus jamais un message. Notre IA apprend votre personnalité pour engager les fans 24/7, augmentant les pourboires et les ventes PPV jusqu'à 300%.
+                Never miss a message again. Our AI learns your personality to engage fans 24/7, increasing tips and PPV sales by up to 300%.
               </p>
               <ul className="space-y-2">
                 <li className="flex items-start gap-2">
                   <CheckCircle className="w-5 h-5 text-green-500 mt-0.5" />
-                  <span className="text-neutral-800">Conversations personnalisées avec les fans</span>
+                  <span className="text-neutral-800">Personalized fan conversations</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <CheckCircle className="w-5 h-5 text-green-500 mt-0.5" />
-                  <span className="text-neutral-800">Suggestions de pourboires intelligentes</span>
+                  <span className="text-neutral-800">Smart tip suggestions</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <CheckCircle className="w-5 h-5 text-green-500 mt-0.5" />
-                  <span className="text-neutral-800">Optimisation des ventes PPV</span>
+                  <span className="text-neutral-800">PPV sales optimization</span>
                 </li>
               </ul>
             </div>
@@ -551,7 +551,7 @@ export default function HomePage() {
                 <p className="text-neutral-700">From $3k in 3 months</p>
               </div>
               <blockquote className="text-neutral-800 italic mb-4">
-                <p>"Je passais 8 heures par jour à répondre aux fans. Maintenant l'IA gère tout parfaitement pendant que je crée du contenu. Mes revenus ont été multipliés par 15 !"</p>
+                <p>"I was spending 8 hours a day messaging fans. Now the AI handles everything perfectly while I create content. My income went 15x!"</p>
               </blockquote>
               <div className="flex gap-2 text-xs">
                 <span className="bg-purple-100 text-purple-700 px-2 py-1 rounded-full">AI Messaging</span>
@@ -572,7 +572,7 @@ export default function HomePage() {
                 <p className="text-neutral-700">Daily work time</p>
               </div>
               <blockquote className="text-neutral-800 italic mb-4">
-                <p>"Je suis mère célibataire et le temps est précieux. L'IA répond exactement comme je le ferais, gère tous mes DM, et je vérifie juste une fois par jour !"</p>
+                <p>"I'm a single mom and time is precious. The AI responds exactly like I would, handles all my DMs, and I just check in once a day!"</p>
               </blockquote>
               <div className="flex gap-2 text-xs">
                 <span className="bg-purple-100 text-purple-700 px-2 py-1 rounded-full">Time Freedom</span>
@@ -593,7 +593,7 @@ export default function HomePage() {
                 <p className="text-neutral-700">Consistent earnings</p>
               </div>
               <blockquote className="text-neutral-800 italic mb-4">
-                <p>"La messagerie de masse et l'optimiseur PPV ont doublé mes revenus. J'envoie une campagne et l'IA la personnalise selon les habitudes de dépenses de chaque fan !"</p>
+                <p>"The mass messaging and PPV optimizer doubled my income. I send one campaign and the AI personalizes it for each fan's spending habits!"</p>
               </blockquote>
               <div className="flex gap-2 text-xs">
                 <span className="bg-purple-100 text-purple-700 px-2 py-1 rounded-full">Mass DMs</span>
