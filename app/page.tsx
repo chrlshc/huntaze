@@ -408,53 +408,53 @@ export default function HomePage() {
       </section>
 
       {/* Community-Driven Features Section */}
-      <section className="py-20 px-4 md:py-24 lg:py-32 bg-gradient-to-r from-purple-900 via-purple-800 to-pink-900 text-white relative overflow-hidden">
-        <div className="absolute inset-0 bg-black opacity-10"></div>
+      <section className="py-20 px-4 md:py-24 lg:py-32 bg-gradient-to-r from-purple-50 via-pink-50 to-purple-50 relative overflow-hidden">
+        <div className="absolute inset-0 bg-white opacity-50"></div>
         <div className="max-w-7xl mx-auto relative z-10">
           <div className="text-center mb-12">
-            <span className="inline-block text-sm font-semibold text-white/80 uppercase tracking-wider mb-2">Built by Creators, For Creators</span>
-            <h2 className="text-3xl md:text-5xl font-bold mb-4">Continuous <span className="text-gradient bg-gradient-to-r from-pink-300 to-purple-300 bg-clip-text text-transparent">Innovation</span></h2>
-            <p className="text-lg md:text-xl text-white/90 max-w-3xl mx-auto">
+            <span className="inline-block text-sm font-semibold text-purple-700 uppercase tracking-wider mb-2">Built by Creators, For Creators</span>
+            <h2 className="text-3xl md:text-5xl font-bold mb-4 text-gray-900">Continuous <span className="text-gradient bg-gradient-to-r from-pink-500 to-purple-600 bg-clip-text text-transparent">Innovation</span></h2>
+            <p className="text-lg md:text-xl text-gray-700 max-w-3xl mx-auto">
               Our platform evolves continuously based on feedback from our community of successful creators.
             </p>
           </div>
           
           
-          <div className="bg-white/5 backdrop-blur-sm rounded-2xl p-8 border border-white/10">
-            <h3 className="text-2xl font-bold mb-6 text-center">Recently Added Features</h3>
+          <div className="bg-white rounded-2xl p-8 shadow-lg border border-purple-200">
+            <h3 className="text-2xl font-bold mb-6 text-center text-gray-900">Recently Added Features</h3>
             <div className="grid md:grid-cols-2 gap-6">
               <div className="flex items-start gap-3">
-                <span className="text-green-400 text-xl">✓</span>
+                <span className="text-green-500 text-xl">✓</span>
                 <div>
-                  <h4 className="font-semibold mb-1">Auto Voice Messages</h4>
-                  <p className="text-sm text-white/80">Send personalized voice notes automatically</p>
+                  <h4 className="font-semibold mb-1 text-gray-900">Auto Voice Messages</h4>
+                  <p className="text-sm text-gray-600">Send personalized voice notes automatically</p>
                 </div>
               </div>
               <div className="flex items-start gap-3">
-                <span className="text-green-400 text-xl">✓</span>
+                <span className="text-green-500 text-xl">✓</span>
                 <div>
-                  <h4 className="font-semibold mb-1">Smart Price Testing</h4>
-                  <p className="text-sm text-white/80">A/B test your content prices for max revenue</p>
+                  <h4 className="font-semibold mb-1 text-gray-900">Smart Price Testing</h4>
+                  <p className="text-sm text-gray-600">A/B test your content prices for max revenue</p>
                 </div>
               </div>
               <div className="flex items-start gap-3">
-                <span className="text-green-400 text-xl">✓</span>
+                <span className="text-green-500 text-xl">✓</span>
                 <div>
-                  <h4 className="font-semibold mb-1">Fan Loyalty Rewards</h4>
-                  <p className="text-sm text-white/80">Automated rewards for your most loyal subscribers</p>
+                  <h4 className="font-semibold mb-1 text-gray-900">Fan Loyalty Rewards</h4>
+                  <p className="text-sm text-gray-600">Automated rewards for your most loyal subscribers</p>
                 </div>
               </div>
               <div className="flex items-start gap-3">
-                <span className="text-green-400 text-xl">✓</span>
+                <span className="text-green-500 text-xl">✓</span>
                 <div>
-                  <h4 className="font-semibold mb-1">Content Performance AI</h4>
-                  <p className="text-sm text-white/80">Predict which content will perform best</p>
+                  <h4 className="font-semibold mb-1 text-gray-900">Content Performance AI</h4>
+                  <p className="text-sm text-gray-600">Predict which content will perform best</p>
                 </div>
               </div>
             </div>
             <div className="mt-8 text-center">
-              <p className="text-white/90 mb-4">Join our community and help shape the future of the platform!</p>
-              <Button asChild className="bg-white text-purple-900 hover:bg-gray-100">
+              <p className="text-gray-700 mb-4">Join our community and help shape the future of the platform!</p>
+              <Button asChild className="btn-primary">
                 <Link href="/join">Get Early Access</Link>
               </Button>
             </div>
@@ -606,7 +606,7 @@ export default function HomePage() {
 
       {/* CTA Section */}
       <section className="py-20 px-4 md:py-24 lg:py-32 bg-gradient-to-r from-purple-900 to-pink-900 text-white relative overflow-hidden">
-        <div className="absolute inset-0 bg-black opacity-20"></div>
+        <div className="absolute inset-0 bg-black opacity-10"></div>
         <div className="max-w-7xl mx-auto text-center relative z-10">
           <h2 className="text-2xl md:text-4xl lg:text-5xl mb-4 md:mb-6 text-white">Ready to Transform Your OnlyFans?</h2>
           <p className="text-base md:text-xl mb-6 md:mb-8 text-neutral-300 max-w-3xl mx-auto px-4">
