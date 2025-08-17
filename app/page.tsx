@@ -613,9 +613,9 @@ export default function HomePage() {
             Join hundreds of creators already using our AI platform to automate their business and multiply their income.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button asChild className="bg-white text-purple-600 hover:bg-neutral-100 px-6 md:px-8 py-3 md:py-4 text-base md:text-lg">
+            <Button asChild className="bg-white text-black hover:bg-neutral-100 px-6 md:px-8 py-3 md:py-4 text-base md:text-lg font-semibold">
               <Link href="/join">
-                Start Free Trial
+                Get Early Access
                 <ArrowRight className="ml-2 h-4 md:h-5 w-4 md:w-5" />
               </Link>
             </Button>
